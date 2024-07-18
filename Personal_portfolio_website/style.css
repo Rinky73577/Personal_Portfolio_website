@@ -204,7 +204,7 @@ nav ul li a:hover::after{
 }
 
 .layer{
-    width: 53%;
+    width: 60%;
     height: 0;
     background: linear-gradient(rgba(0,0,0,0.6), #ffd700);
     border-radius: 10px;
@@ -224,15 +224,15 @@ nav ul li a:hover::after{
     font-weight: 500;
     margin-bottom: 20px;
 }
-.layer a{
+.layer h3 a{
     margin-top: 20px;
     color: #ffd700;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
     background: #fff;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     text-align: center;
 }

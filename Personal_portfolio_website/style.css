@@ -27,7 +27,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }
 
 .logo{
@@ -132,12 +132,11 @@ nav ul li a:hover::after{
 }
 .tab-contents ul li span{
     color: #ffd700;
-    font-size: px;
+    font-size: 14px;
 }
 .tab-contents{
     display: none;
 }
-
 .tab-contents.active-tab{
     display: block;
 }
@@ -182,8 +181,19 @@ nav ul li a:hover::after{
 }
 
 /*-----------------portfolio---------------------*/
-#Portfolio{
+#portfolio{
     padding: 50px 0;
+}
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
 }
 .work img{
     width: 100%;
@@ -213,7 +223,7 @@ nav ul li a:hover::after{
     font-weight: 500;
     margin-bottom: 20px;
 }
-.layer h3 a{
+.layer a{
     margin-top: 20px;
     color: #ffd700;
     text-decoration: none;
@@ -271,9 +281,9 @@ nav ul li a:hover::after{
     margin-right: 15px;
     color: #ababab;
     display: inline-block;
-    transition: 0.5s;
+    transition: transform 0.5s;
 }
-.social-icons a{
+.social-icons a:hover{
     color: #ffd700;
     transform: translateY(-5px);
 }
